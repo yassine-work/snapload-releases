@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Snapload — Download anything</title>
+<meta name="description" content="Snapload is a free Android app for downloading videos from YouTube, TikTok, Instagram and Facebook." />
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --card: #141414;
+    --border: #222;
+    --red: #ff0000;
+    --red-bright: #ff4444;
+    --text: #ffffff;
+    --text-dim: #888888;
+    --text-dimmer: #555555;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+  }
+  main {
+    width: 100%;
+    max-width: 480px;
+    padding-top: 64px;
+    padding-bottom: 48px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -0.5px;
+  }
+  .subtitle {
+    color: var(--text-dim);
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+  .download-btn {
+    display: block;
+    background: var(--red);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 18px 24px;
+    border-radius: 14px;
+    margin-bottom: 12px;
+  }
+  .download-btn:active { opacity: 0.85; }
+  .fine-print {
+    color: var(--text-dimmer);
+    font-size: 12.5px;
+    line-height: 1.5;
+    margin-bottom: 44px;
+  }
+  .platforms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+  .chip {
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  .card h2 {
+    font-size: 14px;
+    margin: 0 0 8px;
+    color: var(--text);
+  }
+  .card p {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin: 0;
+  }
+  footer {
+    margin-top: 40px;
+    color: var(--text-dimmer);
+    font-size: 11.5px;
+    line-height: 1.7;
+  }
+  footer a { color: var(--text-dim); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Snapload</h1>
+  <p class="subtitle">Download anything</p>
+
+  <a class="download-btn" href="https://github.com/yassine-work/snapload-releases/releases/latest/download/snapload.apk">
+    ⬇ Download for Android
+  </a>
+  <p class="fine-print">
+    Direct APK, not on Google Play. Your phone may ask you to allow installs from this
+    source the first time — that's normal for apps distributed outside the Play Store.
+  </p>
+
+  <div class="platforms">
+    <span class="chip">YouTube</span>
+    <span class="chip">Instagram</span>
+    <span class="chip">TikTok</span>
+    <span class="chip">Facebook</span>
+    <span class="chip">X</span>
+  </div>
+
+  <div class="card">
+    <h2>Why not on the Play Store?</h2>
+    <p>Google doesn't allow apps that save others' videos for offline viewing, so — like
+    most video downloaders — Snapload is distributed directly here instead. The app checks
+    this page for updates on its own, so it stays current without an app-store account.</p>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>Snapload collects anonymous usage data (things like which platforms and video
+    qualities are popular) to improve the app — never anything that identifies you
+    personally.</p>
+  </div>
+
+  <footer>
+    Snapload · <a href="https://github.com/yassine-work/snapload-releases/releases">Release notes</a>
+  </footer>
+</main>
+</body>
+</html>
