@@ -1,0 +1,9 @@
+{
+  "latestVersionCode": 9,
+  "latestVersionName": "1.8",
+  "minSupportedVersionCode": 1,
+  "apkUrl": "https://yt-code.me/snapload-releases/snapload.apk",
+  "notes": "Fixed a real bug: update sometimes reported failed even when it actually succeeded.",
+  "analyticsUrl": "https://zxacnuaykvwdhjzyytym.supabase.co",
+  "analyticsAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp4YWNudWF5a3Z3ZGhqenl5dHltIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA1MjgxNTQsImV4cCI6MjEwNjEwNDE1NH0.q1_r_jt6zmJA-XaSjT6DlIqfYSVsymjS-EtkYHc5Vxs"
+}
